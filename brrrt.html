@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links</title>
+    <!-- لینک Font Awesome برای آیکون‌ها -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+<style type="text/css" id="dcoder_stylesheet">/* Global styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* پس‌زمینه روشن */
+    color: #333333; /* متن تیره برای خوانایی بهتر */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* تنظیم ارتفاع برای جلوگیری از اسکرول */
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile-container {
+    position: relative;
+    width: 200px; /* افزایش عرض */
+    height: 200px; /* افزایش ارتفاع */
+    border-radius: 50%;
+    background-color: #e0e0e0; /* پس‌زمینه روشن */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* سایه برجسته */
+    margin: 30px 0; /* فضای بیشتر اطراف پروفایل */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 180px; /* کاهش عرض تصویر برای جای دادن در حاشیه */
+    height: 180px; /* کاهش ارتفاع تصویر */
+    object-fit: cover;
+    border: 4px solid #333333; /* حاشیه تیره */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* سایه ملایم */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile img:hover {
+    transform: scale(1.1); /* بزرگ‌تر شدن تصویر در حالت hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* سایه بیشتر در حالت hover */
+}
+
+main {
+    flex: 1; /* فضای باقی‌مانده را پر می‌کند */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 50px; /* فضای بیشتر در بالای دکمه‌ها */
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* پس‌زمینه روشن */
+    color: #333333; /* متن تیره */
+    border: 2px solid #333333; /* حاشیه تیره */
+    border-radius: 8px;
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 18px; /* افزایش سایز فونت */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 450px; /* طولانی‌تر شدن دکمه‌ها */
+    text-align: center;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.1), -10px 10px 0px rgba(0, 0, 0, 0.1); /* سایه ملایم */
+    position: relative;
+}
+
+.social-button i {
+    margin-right: 15px; /* فاصله بیشتر بین آیکون و متن */
+    font-size: 24px; /* افزایش سایز آیکون */
+}
+
+.social-button:hover {
+    background-color: #f0f0f0; /* پس‌زمینه روشن‌تر */
+    transform: translate(-5px, 5px); /* حرکت دکمه برای افکت برجستگی */
+    box-shadow: -3px 3px 0px rgba(0, 0, 0, 0.1), -7px 7px 0px rgba(0, 0, 0, 0.1); /* سایه کمتر در حالت hover */
+}
+
+footer {
+    padding: 10px;
+    background-color: #ffffff; /* پس‌زمینه روشن */
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #333333; /* حاشیه تیره */
+    position: relative;
+    margin-top: auto; /* فوتر به پایین صفحه چسبیده و فضای بالای آن را پر می‌کند */
+    color: #333333; /* متن تیره */
+}
+</style></head>
+<body>
+
+    <header>
+        <div class="profile">
+            <img src="https://i.pinimg.com/236x/37/17/59/371759b914e0424a4ee448df12f8805c.jpg" alt="Eren Yeager Profile">
+        </div>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <a href="https://letterboxd.com/UStatesA1/" class="social-button">
+                <i class="fas fa-film"></i> Letterboxd
+            </a>
+            <a href="https://myanimelist.net/profile/brrrt" class="social-button">
+                <i class="fas fa-tv"></i> MyAnimeList
+            </a>
+            <a href="https://www.reddit.com/u/Electrical_Ad_4457/s/ia9jwMjxTB" class="social-button">
+                <i class="fab fa-reddit"></i> Reddit
+            </a>
+            <a href="https://www.reddit.com/u/Electrical_Ad_4457/s/ia9jwMjxTB" class="social-button">
+                <i class="fab fa-spotify"></i> Spotify
+            </a>
+            <a href="https://x.com/oldtvs_" class="social-button">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024  For brrrt </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+<script type="text/javascript" id="dcoder_script">document.addEventListener('DOMContentLoaded', () => {
+    const updateLayout = () => {
+        const width = window.innerWidth;
+        const buttons = document.querySelectorAll('.social-button');
+
+        buttons.forEach(button => {
+            if (width < 600) {
+                button.style.padding = '10px 15px';
+            } else {
+                button.style.padding = '15px 25px';
+            }
+        });
+    };
+
+    window.addEventListener('resize', updateLayout);
+    updateLayout(); // Initial call
+});</script></body></html>
